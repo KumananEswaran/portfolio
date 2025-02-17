@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<button class="menu-toggle" onclick="toggleMenu()">
+			<svg
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="2">
+				<line x1="3" y1="12" x2="21" y2="12"></line>
+				<line x1="3" y1="6" x2="21" y2="6"></line>
+				<line x1="3" y1="18" x2="21" y2="18"></line>
+			</svg>
+		</button>
+
+		<nav class="sidebar">
+			<a href="#about" class="nav-link">About Me</a>
+			<a href="#projects" class="nav-link">Projects</a>
+		</nav>
+
+		<main class="main-content">
+			<section id="about">
+				<h1>Kumanan Eswaran</h1>
+				<p>
+					Detail-oriented and analytical professional transitioning from
+					manufacturing engineering to software development. Skilled in
+					HTML/CSS, JavaScript, SCSS, React, and Git, with a strong foundation
+					in problem-solving and process optimization. Passionate about building
+					responsive and user-friendly web applications while collaborating in
+					cross-functional teams and continuously learning new technologies.
+					Seeking an entry-level software developer role.
+				</p>
+				<div class="social-links">
+					<a
+						href="https://github.com/KumananEswaran"
+						class="social-link github-link"
+						target="_blank">
+						<svg viewBox="0 0 24 24" fill="currentColor">
+							<path
+								d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+						</svg>
+						GitHub
+					</a>
+					<a
+						href="https://linkedin.com/in/kumanan-eswaran"
+						class="social-link linkedin-link"
+						target="_blank">
+						<svg viewBox="0 0 24 24" fill="currentColor">
+							<path
+								d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+						</svg>
+						LinkedIn
+					</a>
+					<a href="mailto:kumanan1731@gmail.com" class="social-link email-link">
+						<svg viewBox="0 0 24 24" fill="currentColor">
+							<path
+								d="M24 4.5v15c0 .85-.65 1.5-1.5 1.5H1.5C.65 21 0 20.35 0 19.5v-15c0-.85.65-1.5 1.5-1.5h21c.85 0 1.5.65 1.5 1.5zm-1.5 0L12 13.5 1.5 4.5h21zM22.5 19.5V6.35L12 15.35 1.5 6.35V19.5h21z" />
+						</svg>
+						Email
+					</a>
+					<a href="tel:+60169745589" class="social-link phone-link">
+						<svg viewBox="0 0 24 24" fill="currentColor">
+							<path
+								d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM19 12h2a9 9 0 0 0-9-9v2c3.87 0 7 3.13 7 7zm-4 0h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3z" />
+						</svg>
+						(+60) 16-9745589
+					</a>
+					<a
+						href="https://wa.me/60169745589"
+						class="social-link whatsapp-link"
+						target="_blank">
+						<svg viewBox="0 0 24 24" fill="currentColor">
+							<path
+								d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+						</svg>
+						WhatsApp
+					</a>
+				</div>
+
+				<h3>Technical Skills</h3>
+				<div class="skills-grid">
+					<div class="skill-tag">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+							alt="HTML5" />
+						HTML5
+					</div>
+					<div class="skill-tag">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+							alt="CSS3" />
+						CSS3
+					</div>
+					<div class="skill-tag">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+							alt="JavaScript" />
+						JavaScript
+					</div>
+					<div class="skill-tag">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+							alt="React" />
+						React
+					</div>
+					<div class="skill-tag">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+							alt="SCSS" />
+						SCSS
+					</div>
+					<!-- <div class="skill-tag">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+							alt="Node.js" />
+						Node.js
+					</div> -->
+					<div class="skill-tag">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+							alt="Git" />
+						Git
+					</div>
+					<!-- <div class="skill-tag">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+							alt="MongoDB" />
+						MongoDB
+					</div> -->
+					<!-- <div class="skill-tag">
+						<img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+							alt="VS Code" />
+						VS Code
+					</div> -->
+				</div>
+			</section>
+
+			<section id="projects">
+				<h2>Projects</h2>
+				<div class="project-grid">
+					<div class="project-card">
+						<img
+							src="./expense-chart-fm-challenge.netlify.app.PNG"
+							alt="Project Image"
+							class="project-img" />
+						<div class="project-content">
+							<h3 class="project-title">Expenses Chart Component</h3>
+							<p>
+								This React-based expense tracker dashboard visualizes weekly
+								spending using Chart.js, dynamically fetching and displaying
+								data from a JSON file with React hooks (useState, useEffect).
+								Conditional styling highlights the current day's spending for
+								enhanced user engagement. Designed with responsiveness in mind,
+								this interface adapts smoothly across different screen sizes.
+							</p>
+
+							<div class="project-links">
+								<a
+									href="https://github.com/KumananEswaran/expenses-chart"
+									class="project-link"
+									target="_blank">
+									<svg viewBox="0 0 24 24" fill="currentColor">
+										<path
+											d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+									</svg>
+									Code
+								</a>
+								<a
+									href="https://expense-chart-fm-challenge.netlify.app/"
+									class="project-link"
+									target="_blank">
+									<svg
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+										<polyline points="15 3 21 3 21 9"></polyline>
+										<line x1="10" y1="14" x2="21" y2="3"></line>
+									</svg>
+									Live Demo
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="project-card">
+						<img
+							src="./country-rest-api-frontendmentor.netlify.app_ (1).PNG"
+							alt="Project Image"
+							class="project-img" />
+						<div class="project-content">
+							<h3 class="project-title">REST Countries API</h3>
+							<p>
+								This Country Explorer web app allows users to browse and search
+								for countries with detailed information, including population,
+								region, capital, languages, and currencies. It features a
+								dynamic search bar and region-based filtering for easy
+								navigation. Clicking on a country provides an in-depth view with
+								native names, subregion details, and bordering countries.
+							</p>
+
+							<div class="project-links">
+								<a
+									href="https://github.com/KumananEswaran/rest-countries-api"
+									class="project-link"
+									target="_blank">
+									<svg viewBox="0 0 24 24" fill="currentColor">
+										<path
+											d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+									</svg>
+									Code
+								</a>
+								<a
+									href="https://country-rest-api-frontendmentor.netlify.app/"
+									class="project-link"
+									target="_blank">
+									<svg
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+										<polyline points="15 3 21 3 21 9"></polyline>
+										<line x1="10" y1="14" x2="21" y2="3"></line>
+									</svg>
+									Live Demo
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="project-card">
+						<img
+							src="./coffeeroasters-fm-challenge.netlify.app_.png"
+							alt="Project Image"
+							class="project-img" />
+						<div class="project-content">
+							<h3 class="project-title">Coffeeroasters Subscription Site</h3>
+							<p>
+								Coffeeroasters subscription site is a responsive web application
+								featuring a homepage, about page, and a subscription plan
+								creator. JavaScript handles user inputs, UI toggles, form
+								validation, and a modal confirmation for finalizing plans. This
+								site also ensures accessibility with proper ARIA attributes and
+								keyboard navigation.
+							</p>
+
+							<div class="project-links">
+								<a
+									href="https://github.com/KumananEswaran/coffeeroasters"
+									class="project-link"
+									target="_blank">
+									<svg viewBox="0 0 24 24" fill="currentColor">
+										<path
+											d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+									</svg>
+									Code
+								</a>
+								<a
+									href="https://coffeeroasters-fm-challenge.netlify.app/"
+									class="project-link"
+									target="_blank">
+									<svg
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+										<polyline points="15 3 21 3 21 9"></polyline>
+										<line x1="10" y1="14" x2="21" y2="3"></line>
+									</svg>
+									Live Demo
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="project-card">
+						<img
+							src="./advice-generator-app-fm-project.netlify.app_.PNG"
+							alt="Project Image"
+							class="project-img" />
+						<div class="project-content">
+							<h3 class="project-title">Advice Generator App</h3>
+							<p>
+								This Advice Generator App is a simple yet interactive web
+								application that fetches random advice from the Advice Slip API
+								using JavaScript's fetch function. Built with HTML, CSS, and
+								JavaScript, this app dynamically updates the UI to display new
+								advice each time the user clicks the button.
+							</p>
+
+							<div class="project-links">
+								<a
+									href="https://github.com/KumananEswaran/advice-generator-app"
+									class="project-link"
+									target="_blank">
+									<svg viewBox="0 0 24 24" fill="currentColor">
+										<path
+											d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+									</svg>
+									Code
+								</a>
+								<a
+									href="https://advice-generator-app-fm-project.netlify.app/"
+									class="project-link"
+									target="_blank">
+									<svg
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+										<polyline points="15 3 21 3 21 9"></polyline>
+										<line x1="10" y1="14" x2="21" y2="3"></line>
+									</svg>
+									Live Demo
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="project-card">
+						<img
+							src="./fm-quiz-app.netlify.app_.PNG"
+							alt="Project Image"
+							class="project-img" />
+						<div class="project-content">
+							<h3 class="project-title">Interactive Frontend Quiz App</h3>
+							<p>
+								This Frontend Quiz App is an interactive web-based application
+								built with HTML, CSS, and JavaScript. It features a clean UI
+								with a dark mode toggle, dynamic question updates, and real-time
+								feedback using visual indicators. With structured question flow
+								and score tracking, this project highlights my skills in
+								frontend development, DOM manipulation, and JavaScript
+								interactivity.
+							</p>
+
+							<div class="project-links">
+								<a
+									href="https://github.com/KumananEswaran/frontend-quiz-app"
+									class="project-link"
+									target="_blank">
+									<svg viewBox="0 0 24 24" fill="currentColor">
+										<path
+											d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+									</svg>
+									Code
+								</a>
+								<a
+									href="https://fm-quiz-app.netlify.app/"
+									class="project-link"
+									target="_blank">
+									<svg
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+										<polyline points="15 3 21 3 21 9"></polyline>
+										<line x1="10" y1="14" x2="21" y2="3"></line>
+									</svg>
+									Live Demo
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="project-card">
+						<img
+							src="./rc-frontendmentor.netlify.app_.PNG"
+							alt="Project Image"
+							class="project-img" />
+						<div class="project-content">
+							<h3 class="project-title">Interactive Rating Component</h3>
+							<p>
+								This Rating Component is a simple yet interactive web-based
+								feedback system built with HTML, CSS, and JavaScript. It allows
+								users to rate their experience on a scale of 1 to 5, dynamically
+								updating the selected rating before submission. Upon clicking
+								"Submit," the interface transitions to a thank-you message
+								displaying the chosen rating.
+							</p>
+
+							<div class="project-links">
+								<a
+									href="https://github.com/KumananEswaran/rating-component"
+									class="project-link"
+									target="_blank">
+									<svg viewBox="0 0 24 24" fill="currentColor">
+										<path
+											d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+									</svg>
+									Code
+								</a>
+								<a
+									href="https://rc-frontendmentor.netlify.app/"
+									class="project-link"
+									target="_blank">
+									<svg
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+										<polyline points="15 3 21 3 21 9"></polyline>
+										<line x1="10" y1="14" x2="21" y2="3"></line>
+									</svg>
+									Live Demo
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="project-card">
+						<img
+							src="./faq-challenge-frontend-mentor.netlify.app_.PNG"
+							alt="Project Image"
+							class="project-img" />
+						<div class="project-content">
+							<h3 class="project-title">FAQ-Accordion</h3>
+							<p>
+								This FAQ Accordion built with HTML, CSS, and JavaScript that
+								provides a user-friendly way to display frequently asked
+								questions. This app features a collapsible accordion layout
+								where users can toggle the answers. It incorporates keyboard
+								accessibility with event handling, allowing users to open and
+								close questions using both mouse clicks and keyboard
+								interactions.
+							</p>
+
+							<div class="project-links">
+								<a
+									href="https://github.com/KumananEswaran/faq-accordion"
+									class="project-link"
+									target="_blank">
+									<svg viewBox="0 0 24 24" fill="currentColor">
+										<path
+											d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+									</svg>
+									Code
+								</a>
+								<a
+									href="https://faq-challenge-frontend-mentor.netlify.app/"
+									class="project-link"
+									target="_blank">
+									<svg
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+										<polyline points="15 3 21 3 21 9"></polyline>
+										<line x1="10" y1="14" x2="21" y2="3"></line>
+									</svg>
+									Live Demo
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+
+	<script src="script.js"></script>
+</html>
